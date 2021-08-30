@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="design_feedback_page.css">
+    <style>
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h4><a href="D:\web dev\arya project two\index.html" target="blank">Home</a></h4>
+    <div class="feedback_form_container">
+    <form class="one" action="index.html" method="POST" enctype="text/plain">
+        <h1 class="main_head">Feedback Form</h1><hr>
+        <h3>Details*</h3>
+        <legend>Name*</legend><input type="text" required name="name" id="name" placeholder="Adolf Hitler"><br><br>
+        <legend>Email*</legend><input type="email" name="email" id="email" required placeholder="tito18@gmail.com"><br><br>
+        <legend>Feedback*</legend><textarea required name="Feedback" id="Feedback" cols="100" rows="7" placeholder="The line spacing can be larger"></textarea><br><br>
+        <legend>Please Rate This Website</legend><input type="range" name="rating" id="rating"><br>
+        <input class="submit_button" type="submit" value="Submit">&nbsp;&nbsp;&nbsp;
+        <input class="reset_button" type="reset" value="Reset">
+    </form>
+    </div>
+</body>
+</html>
