@@ -1,0 +1,29 @@
+div{
+    float: right;
+    text-align: right;
+    background-color: #f2f2f29f;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid #144d3a;
+    border-style:dotted;
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 20px #35353515;
+}
+hr{
+    border: none;
+    height: 0px;
+    width: 70%;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #165540 ;
+}
+body{
+    background-color: #d5eebb75;
+}
+*{
+    color: #323530;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    color: #01937C;
+}
